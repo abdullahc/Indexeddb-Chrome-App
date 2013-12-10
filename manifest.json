@@ -1,0 +1,17 @@
+ {
+      "name": "IndexedDB Chrome App ",
+      "version": "1.0",
+      "manifest_version": 2,
+      "description": "Chrome App Port of HTML5rocks todo list based on indexedDB",
+      "app": {
+      "launch": {
+        "local_path": "index.html"
+      }},
+      "permissions": [
+        "unlimitedStorage",
+        "notifications"
+      ],
+       "icons": { "16": "icon.jpg"}
+      }
+
+
