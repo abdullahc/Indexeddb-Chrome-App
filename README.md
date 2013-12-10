@@ -30,23 +30,23 @@ Words of Advice
 Below is what google recommends. I found **unlimitedStorage** to be particularly helpful when designing the complete offline + portable solution
 
     {
-  "name": "Google Mail",
-  "description": "Read your gmail",
-  "version": "1",
-  "app": {
-    "urls": [
-      "*://mail.google.com/mail/",
-      "*://www.google.com/mail/"
-    ],
-    "launch": {
-      "web_url": "http://mail.google.com/mail/"
-    }
-  },
-  "icons": {
-    "128": "icon_128.png"
-  },
-  "permissions": [
-    "unlimitedStorage",
-    "notifications"
-  ]
-}
+	  "name": "Google Mail",
+	  "description": "Read your gmail",
+	  "version": "1",
+	  "app": {
+		"urls": [
+		  "*://mail.google.com/mail/",
+		  "*://www.google.com/mail/"
+		],
+		"launch": {
+		  "web_url": "http://mail.google.com/mail/"
+		}
+	  },
+	  "icons": {
+		"128": "icon_128.png"
+	  },
+	  "permissions": [
+		"unlimitedStorage",
+		"notifications"
+	  ]
+	}
